@@ -1,0 +1,11 @@
+export { default as Nav } from "./Nav";
+export { default as Footer } from "./Footer";
+export { default as HeaderHome } from "./HeaderHome";
+export { default as Categories } from "./Categories";
+export { default as Popular } from "./Popular";
+export { default as Questions } from "./Questions";
+export { default as Testimonials } from "./Testimonials";
+export { default as HeaderAbout } from "./HeaderAbout";
+export { default as OurTeam } from "./OurTeam";
+export { default as CardCourses } from "./CardCourses";
+export { default as BtnUp } from "./BtnUp";

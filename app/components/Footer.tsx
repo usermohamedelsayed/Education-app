@@ -42,6 +42,9 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <div className="text-center text-[13px] mt-[10px] border-t-[1px] border-crBorer pt-[10px]">
+        created by mohammed elsayed
+      </div>
     </div>
   );
 }

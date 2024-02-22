@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { IoIosContacts, IoIosHome } from "react-icons/io";
 import { MdCastForEducation, MdOutlineRoundaboutRight } from "react-icons/md";
-import myPhoto from "../assest/myPhoto.jpg";
+import myLogo from "../assest/myLogo.png";
 import { FaArrowUp } from "react-icons/fa";
 const dataLinks: string[] = ["home", "about", "courses", "contact"];
 const handleScroll = (nav: HTMLDivElement | null) => {
@@ -38,14 +38,14 @@ export default function Nav() {
             href={"/"}
             className="flex items-center cursor-pointer select-none gap-[8px]"
           >
-            <div className="w-[45px] h-[45px] overflow-hidden">
+            <div className="w-[45px] h-[45px] bg-[#FFC107] rounded-full overflow-hidden">
               <Image
-                src={myPhoto}
-                alt="myPhoto"
-                className="w-full h-full rounded-full"
+                src={myLogo}
+                alt="myLogo"
+                className="w-full scale-150 h-full"
               />
             </div>
-            <p className="text-[30px] uppercase">educa.</p>
+            <p className="text-[28px] uppercase">educa.</p>
           </Link>
           <ul className="hidden md:flex items-center gap-2 py-2 text-sm">
             {dataLinks.map((item) => (

@@ -17,7 +17,7 @@ function page() {
         src={Stars}
         alt="bgHeader"
       />
-      <div className=" grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-3 justify-center items-stretch">
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-3 justify-center items-stretch">
         {dataPopular.map((item) => (
           <CardCourses key={item.id} item={item} />
         ))}

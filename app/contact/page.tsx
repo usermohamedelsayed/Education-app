@@ -12,14 +12,14 @@ export const metadata: Metadata = {
 };
 export default function page() {
   return (
-    <div className="min-h-[100vh] relative mt-[80px] md:mt-[30px] flex items-center justify-center">
+    <div className="relative min-h-[100vh] mt-[70px] md:mt-[30px] flex items-center justify-center">
       <Image
-        className="absolute bg-gradient-to-tr from-bgPrimary to-transparent left-0 right-0 bottom-0 top-0 w-full h-full object-cover "
+        className="absolute w-[100%] h-[100%] bg-gradient-to-tr from-bgPrimary to-transparent object-cover"
         src={Stars}
         alt="bgHeader"
       />
       <div className="max-w-[1000px] w-[100%] relative md:border-[1px] border-crPrimary rounded-md bg-bgSubPrimary md:h-[65vh] mx-auto px-3 flex flex-col md:flex-row items-center justify-center gap-[10px]">
-        <section className="flex flex-col justify-center p-[30px] md:p-[14px] md:absolute left-[40px] rounded-md md:bg-crPrimary w-[100%] md:w-[300px] md:min-h-[75vh]">
+        <section className="flex flex-col justify-center p-[14px] md:absolute left-[40px] rounded-md md:bg-crPrimary w-[100%] md:w-[300px] md:min-h-[75vh]">
           <div className="hidden md:block mx-auto shrink-1 w-[200px] md:w-[180px] h-[180px] md:h-[200px] ">
             <Image
               className="w-full h-full object-contain"

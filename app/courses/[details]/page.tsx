@@ -8,7 +8,7 @@ export default function page({ params }: any) {
   if (!currItem) return;
   return (
     <div>
-      <div className="container px-3 mx-auto mt-[90px] pb-10 min-h-[90vh] md:grid grid-cols-2 items-center">
+      <div className="container px-3 mx-auto mt-[90px] pb-10 md:min-h-[90vh] md:grid grid-cols-2 items-center">
         <div className="my-[20px]">
           <p className="text-[30px]">{currItem.title}</p>
           <span className="text-crTextMuted">{currItem.desc}</span>

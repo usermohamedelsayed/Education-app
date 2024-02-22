@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 export default function page() {
   return (
-    <div className="relative min-h-[100vh] mt-[70px] md:mt-[30px] flex items-center justify-center">
+    <div className="relative md:min-h-[100vh] mt-[80px] md:mt-[30px] flex items-center justify-center">
       <Image
         className="absolute w-[100%] h-[100%] bg-gradient-to-tr from-bgPrimary to-transparent object-cover"
         src={Stars}
